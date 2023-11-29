@@ -6,7 +6,7 @@ draw.path = (ctx, path, color = "black")=>{
     ctx.beginPath();
     ctx.moveTo(...path[0]);
     for(let i = 1; i<path.length; i++){
-        ctx.lineTo(path[1]);
+        ctx.lineTo(...path[i]);
     }
         ctx.stroke();
 }
