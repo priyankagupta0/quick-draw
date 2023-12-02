@@ -40,5 +40,6 @@ button {
   button:disabled,
   button:disabled:hover {
     cursor: default;
-    background-color: gray;
+    background: gray;
+    pointer-events: none; /* Disable click and hover events */
   }

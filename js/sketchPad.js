@@ -20,10 +20,13 @@ class SketchPad{
         this.ctx = this.canvas.getContext("2d");
         this.#addEventListener();
 
-        this.paths = [];
-        this.isDrawing = false;
-        this.#reDraw();
+        this.reset();
     }
+    reset(){
+        this.paths=[];
+        this.isDrawing=false;
+        this.#reDraw();
+     }
     #addEventListener(){
         // coordinates of mouse click in the white canvas
         // down means click
@@ -43,7 +46,7 @@ class SketchPad{
                 this.#reDraw();
             }
         }
-        this.canvas.onmouseup=()=>{
+        document.onmouseup=()=>{
             this.isDrawing = false;
         }
         this.canvas.ontouchstart=(evt)=>{
@@ -54,9 +57,9 @@ class SketchPad{
             const loc = evt.touches[0];
             this.canvas.onmousemove(loc);
         }
-        this.canvas.ontouchend=()=>{
+        document.ontouchend=()=>{
             // this.isDrawing = false;
-            this.canvas.onmouseup();
+            document.onmouseup();
         }
         this.undoBtn.onclick=()=>{
             this.paths.pop();
