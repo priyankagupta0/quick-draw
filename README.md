@@ -1,2 +1,2 @@
-![img1](https://github.com/priyankagupta0/quick-draw/assets/88431384/8b76ed1b-8106-49a5-baf7-625222ba8cbe)
-![img2](https://github.com/priyankagupta0/quick-draw/assets/88431384/b20f1bd8-0343-409a-8322-0356ba428fda)
+![Screenshot (236)](https://github.com/priyankagupta0/quick-draw/assets/88431384/ba09c668-e5e9-4afa-9d50-4306b9e8b1e6)
+![Screenshot (237)](https://github.com/priyankagupta0/quick-draw/assets/88431384/b6e62dd3-8184-49d8-a7e6-afa07072c1cf)
